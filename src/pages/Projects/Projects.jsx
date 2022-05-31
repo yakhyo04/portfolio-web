@@ -16,7 +16,7 @@ const Projects = () => {
     return (
         <Container fluid className='project'>
             <Container>
-            <h1 style={{paddingTop: "120px"}}>My Recent <span className='project__span'> Works</span></h1>
+            <h1 style={{paddingTop: "120px", paddingBottom: "40px"}}>My Recent <span className='project__span'> Works</span></h1>
                 <p className='project__text'>Here are a few projects I've worked on recently.</p>
                 <Row className='project__row'>
                     <Col md={4} className="project__card">
