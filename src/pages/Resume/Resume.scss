@@ -1,0 +1,45 @@
+.resume{
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    &__div{
+        padding-top: 100px;
+    }
+    &__container{
+        position: relative !important;
+        padding-top: 110px;
+        padding-bottom: 30px;
+        background-image: var(--section-background-color);
+        color: white;
+        // display: flex;
+    }
+    &__btn{
+        background-color: #623686;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        &:hover{
+            background-color: #592584;
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .resume{
+        &__btn{
+            padding: 10px 40px;
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .resume{
+        &__btn{
+            padding: 10px 20px;
+        }
+    }
+}

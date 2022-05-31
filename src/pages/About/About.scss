@@ -1,0 +1,66 @@
+.about{
+    color: #fff;
+    padding-top: 100px;
+    &__div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    // &__nav{
+    //     width: 50%;
+    // }
+    &__span{
+        color: blueviolet;
+    }
+    &__img{
+        width: 400px;
+    }
+    &__heading{
+        font-size: 33px;
+        text-align: center;
+    }
+    &__text{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    &__subtext{
+        font-size: 19px;
+        padding: 20px 0 20px 40px;
+    }
+    &__quote{
+        color: #9B7EAC;
+        padding: 15px 0;
+    }
+    &__quotemen{
+        color: #9B7EAC;
+        text-align: center;
+    }
+    &__quotenav{
+        text-align: center;
+    }
+}
+
+
+.tech-icons {
+    width: 150px;
+    height: 50px;
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  }
